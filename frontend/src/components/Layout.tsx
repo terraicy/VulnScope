@@ -28,8 +28,8 @@ export function Layout() {
             <Database size={18} />
           </div>
           <div>
-            <div className="text-sm font-semibold uppercase tracking-wide text-white">KRYNEX Labs</div>
-            <div className="text-xs text-slate-400">VulnScope</div>
+            <div className="text-sm font-semibold uppercase tracking-wide text-white">VulnScope</div>
+            <div className="text-xs text-slate-400">Exposure management</div>
           </div>
         </div>
         <nav className="space-y-1 p-3">

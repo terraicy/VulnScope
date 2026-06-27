@@ -1,4 +1,4 @@
-# VulnScope V1.0
+# VulnScope V1.1
 
 Vulnerability exposure management dashboard for assets, software inventory, CVEs and remediation tracking.
 

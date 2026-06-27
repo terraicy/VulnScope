@@ -12,7 +12,7 @@ function AuthShell({ title, children }: { title: string; children: React.ReactNo
             <ShieldCheck size={20} />
           </div>
           <div>
-            <div className="text-sm font-semibold uppercase tracking-wide">KRYNEX Labs</div>
+            <div className="text-sm font-semibold uppercase tracking-wide">VulnScope</div>
             <h1 className="text-xl font-semibold">{title}</h1>
           </div>
         </div>
@@ -23,8 +23,8 @@ function AuthShell({ title, children }: { title: string; children: React.ReactNo
 }
 
 export function LoginPage() {
-  const [email, setEmail] = useState("admin@krynex.local");
-  const [password, setPassword] = useState("password123");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
   const [error, setError] = useState("");
   const navigate = useNavigate();
 
@@ -57,7 +57,7 @@ export function LoginPage() {
 
 export function RegisterPage() {
   const [organizationName, setOrganizationName] = useState("KRYNEX Demo");
-  const [email, setEmail] = useState("admin@krynex.local");
+  const [email, setEmail] = useState("");
   const [password, setPassword] = useState("password123");
   const [fullName, setFullName] = useState("Security Admin");
   const [error, setError] = useState("");
