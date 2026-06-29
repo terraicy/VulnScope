@@ -1,4 +1,4 @@
-# VulnScope V1.1
+# VulnScope V1.2
 
 Vulnerability exposure management dashboard for assets, software inventory, CVEs and remediation tracking.
 
@@ -47,6 +47,13 @@ API: <http://localhost:8000/docs>
 
 Set `DEMO_MODE=true` and `VITE_DEMO_MODE=true` for public demos. The frontend bypasses the login wall for dashboard preview. When demo mode is off, normal auth remains active.
 
+## Public Demo Readiness
+
+- Use synthetic asset names, IP ranges and package inventories in public demos.
+- Keep imports limited to local demo files, never live customer inventory.
+- Present remediation tasks as workflow examples rather than production SLAs.
+- Reset demo state before sharing long-lived public review links.
+
 ## Environment Variables
 
 Use `.env.example` as the public-safe template. Do not commit real secrets. Key variables include `DEMO_MODE`, `SECRET_KEY`, `DATABASE_URL`, `REDIS_URL`, `CORS_ORIGINS`, `VITE_API_BASE_URL` and `VITE_DEMO_MODE`.
@@ -85,3 +92,4 @@ VulnScope pairs with SentinelX, LogForge and ThreatVault. Future KRYNEX Nexus ma
 ## License
 
 MIT.
+<!-- Project version: VulnScope V1.2 -->

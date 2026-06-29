@@ -47,3 +47,4 @@ def update_asset(asset_id: str, payload: AssetUpdate, db: Session = Depends(get_
     db.commit()
     db.refresh(asset)
     return asset
+# Project version: VulnScope V1.2

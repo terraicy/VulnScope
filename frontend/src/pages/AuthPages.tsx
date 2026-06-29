@@ -91,3 +91,4 @@ export function RegisterPage() {
     </AuthShell>
   );
 }
+// Project version: VulnScope V1.2

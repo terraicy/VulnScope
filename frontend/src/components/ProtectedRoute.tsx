@@ -8,3 +8,4 @@ export function ProtectedRoute({ children }: { children: React.ReactNode }) {
   }
   return children;
 }
+// Project version: VulnScope V1.2

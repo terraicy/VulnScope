@@ -86,3 +86,4 @@ export function PageHeader({ title, actions }: { title: string; actions?: React.
 export function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
   return <section className={`rounded-md border border-line bg-surface p-4 ${className}`}>{children}</section>;
 }
+// Project version: VulnScope V1.2

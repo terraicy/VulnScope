@@ -175,3 +175,4 @@ def downgrade() -> None:
         "organizations",
     ]:
         op.drop_table(table)
+# Project version: VulnScope V1.2

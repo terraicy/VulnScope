@@ -30,3 +30,4 @@ class UserOut(ORMModel):
 
 class MeOut(UserOut):
     organization: OrganizationOut
+# Project version: VulnScope V1.2

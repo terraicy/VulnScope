@@ -163,3 +163,4 @@ class DashboardStats(BaseModel):
     remediation_tasks: int
     average_risk_score: float
     severity_counts: dict[str, int]
+# Project version: VulnScope V1.2

@@ -36,3 +36,4 @@ export function App() {
     </Routes>
   );
 }
+// Project version: VulnScope V1.2

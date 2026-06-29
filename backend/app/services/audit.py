@@ -22,3 +22,4 @@ def write_audit(
             metadata_json=metadata or {},
         )
     )
+# Project version: VulnScope V1.2
